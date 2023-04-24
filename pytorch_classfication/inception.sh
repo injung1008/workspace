@@ -1,0 +1,9 @@
+python3 inceptionV4_parser.py --size_h 256 --size_w 128 --lr 0.01 --lr_factor 0.05 --patience 10 --epochs 200 --batch 64 --w1_path '/DATA/source/ij/pytorch_classfication/inception_weights/1_2_loss.pt' --w2_path '/DATA/source/ij/pytorch_classfication/inception_weights/1_2_acc.pt' --w3_path '/DATA/source/ij/pytorch_classfication/inception_weights/1_2_last.pt'
+
+# python3 inceptionV4_parser.py --size_h 256 --size_w 128 --lr 0.01 --lr_factor 0.03 --patience 5 --epochs 200 --batch 64 --w1_path '/DATA/source/ij/pytorch_classfication/inception_weights/2_loss.pt' --w2_path '/DATA/source/ij/pytorch_classfication/inception_weights/2_acc.pt' --w3_path '/DATA/source/ij/pytorch_classfication/inception_weights/2_last.pt'
+
+# python3 inceptionV4_parser.py --size_h 256 --size_w 128 --lr 0.001 --lr_factor 0.1 --patience 7 --epochs 200 --batch 64 --w1_path '/DATA/source/ij/pytorch_classfication/inception_weights/3_loss.pt' --w2_path '/DATA/source/ij/pytorch_classfication/inception_weights/3_acc.pt' --w3_path '/DATA/source/ij/pytorch_classfication/inception_weights/3_last.pt'
+
+# python3 inceptionV4_parser.py --size_h 256 --size_w 128 --lr 0.01 --lr_factor 0.005 --patience 2 --epochs 200 --batch 64 --w1_path '/DATA/source/ij/pytorch_classfication/inception_weights/4_loss.pt' --w2_path '/DATA/source/ij/pytorch_classfication/inception_weights/4_acc.pt' --w3_path '/DATA/source/ij/pytorch_classfication/inception_weights/4_last.pt'
+
+# python3 inceptionV4_parser.py --size_h 256 --size_w 128 --lr 0.001 --lr_factor 0.03 --patience 5 --epochs 200 --batch 64 --w1_path '/DATA/source/ij/pytorch_classfication/inception_weights/5_loss.pt' --w2_path '/DATA/source/ij/pytorch_classfication/inception_weights/5_acc.pt' --w3_path '/DATA/source/ij/pytorch_classfication/inception_weights/5_last.pt'
